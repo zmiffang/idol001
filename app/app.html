@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+        height: 500px;
+        margin-bottom: 110px;
+        background-color: pink;
+        }
+        .middle{
+        width:1000px;
+        margin:0 auto;
+        }
+        ul{
+            margin:0;
+            padding: 0;
+        }
+        li{
+            text-decoration: none;
+            display: inline-block;
+            margin: 0;
+            padding: 0; 
+        }
+        .banner li{
+            margin-right: 35px;
+            width: 220px;
+        }
+        .banner span{
+            display: inline-block;
+            width: 180px;
+            height: 200px;
+            background: url(feature.png) no-repeat 0 0;
+            margin: 0 20px;
+        }
+        .banner h2{
+            width: 100%;
+            color: grey;
+            display: inline-block;
+            text-align: center;
+            margin: 45px 0 15px 0;
+        }
+        .banner p{
+            width: 100%;
+            margin: 0;
+            color: grey;
+            display: inline-block;
+            text-align: center;
+            line-height: 30px;
+        }
+        #banner2{
+            background: url(feature.png) no-repeat -180px 0;
+        }
+        #banner3{
+            background: url(feature.png) no-repeat -360px 0;
+        }
+        #banner4 span{
+            background: url(feature.png) no-repeat -540px 0;
+        }
+        #banner4{
+            margin-right: 0;
+        }
+        .m2{
+            border-top: 1px solid rgb(211, 211, 211);
+            padding-top: 50px;
+            margin-bottom: 70px;
+        }
+        .title{
+        margin: 0 auto;
+        padding: 0;
+        font-size: 30px;
+        text-align: center;
+        width: 300px;
+        border-bottom: 1px solid rgb(211, 211, 211);
+        }
+        .icon{
+        margin: 15px auto 0;
+        padding: 0;
+        display: block;
+        width: 10px;
+        height: 5px;
+        background-color: black;
+        }
+        .m2a{
+            color: grey;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+        .m2a:hover{
+            color: black;
+        }
+        .m2 h2{
+            text-align: center;
+            color: #ff448d;
+        }
+        .line1{
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        width: 108px;
+        height: 5px;
+        background: url(icon.png) no-repeat -10px -49px;
+        }
+        .stars a{
+            color: grey;
+            text-decoration: none;
+            font-size: 20px;
+            text-align: center;
+        }
+        .stars p{
+            margin: 0;
+            padding: 0;
+            line-height: 40px;
+            height: 40px;
+        }
+        .stars img{
+            width: 160px;
+            height: 160px;
+            border-radius: 100%;
+        }
+        .stars li{
+            height: 200px;
+            margin: 20px 45px 20px 0;
+        }
+        .stars span{
+            display: block;
+            background-color: pink;
+            width: 160px;
+            height: 160px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+   </header>
+   <section>
+       <div class="middle">
+           <ul class="banner">
+               <li>
+                   <span></span>
+                   <h2>齐聚当红偶像</h2>
+                   <p>EXO 少女时代 BigBang TFBOYS 李易峰 等等...</p>
+               </li>
+               <li>
+                   <span id="banner2"></span>
+                   <h2>观看行程直播</h2>
+                   <p>查询详细的偶像行程，更有各大电视台直播、演唱会直播~</p>
+               </li>
+               <li>
+                   <span id="banner3"></span>
+                   <h2>微博上线记录</h2>
+                   <p>查看偶像的微博上线记录，与偶像的生活更进一步~</p>
+               </li>
+               <li id="banner4">
+                   <span></span>
+                   <h2>粉丝交友社区</h2>
+                   <p>找到志同道合的小伙伴，追星路上不孤单~</p>
+               </li>
+           </ul>
+       </div>
+   </section>
+   <section>
+       <div class="middle m2">
+           <h1 class="title">详细的偶像行程<span class="icon"></span></h1>
+           <div style="height: 300px;"></div>
+           <a class="m2a" href="#">下载APP查看更多呦~</a>
+        </div>
+   </section>
+   <section>
+       <div class="middle m2">
+           <h1 class="title">有趣的偶像动态<span class="icon"></span></h1>
+           <div style="height: 300px;"></div>
+        </div>
+   </section>
+   <section>
+       <div class="middle m2">
+           <h1 class="title">已开启的爱豆<span class="icon"></span></h1>
+           <h2>韩流<span class="line1"></span></h1>
+           <ul class="stars">
+               <li>
+                   <a href="#"><span><img src="3exo.jpg"></span>
+                   <p>EXO</p></a>
+               </li>
+               <li>
+                   <a href="#"><span><img src="3bigbang.jpg"></span>
+                   <p>Bigbang</p></a>
+               </li>
+               <li>
+                   <a href="#"><span><img src="3exid.png"></span>
+                   <p>EXID</p></a>
+               </li>
+               <li>
+                   <a href="#"><span><img src="3jbj.png"></span>
+                   <p>JBJ</p></a>
+               </li>
+               <li class="right" style="margin-right:0;">
+                   <a href="#"><span><img src="3kongliu.jpg"></span>
+                   <p>孔刘</p></a>
+                <li>
+                   <a href="#"><span><img src="3nct.jpg"></span>
+                   <p>NCT</p></a>
+               </li>
+               <li>
+                   <a href="#"><span><img src="3twice.jpg"></span>
+                   <p>TEICE</p></a>
+               </li>
+               <li>
+                   <a href="#"><span></span>
+                   <p></p></a>
+               </li>
+               <li>
+                   <a href="#"><span></span>
+                   <p></p></a>
+               </li>
+               <li class="right" style="margin-right:0;">
+                   <a href="#"><span></span>
+                   <p></p></a>
+               </li>
+           </ul>
+        </div>
+   </section>
+   <footer>
+   </footer>
+</body>
+</html>
