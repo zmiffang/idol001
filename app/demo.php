@@ -1,0 +1,1 @@
+<?php echo Date('Y-m-dH:i:s')?>
