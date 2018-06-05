@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+    a{
+        text-decoration: none;
+    }
+    .middle{
+        width:1000px;
+        margin:0 auto;
+    }
+    .lbpic{
+        width:720px;
+        height:330px;
+        padding: 0;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        animation: lunbo 20s ease-out infinite;
+    }
+    .lbpic img{
+        width:720px;
+        height:330px;
+        float: left;
+    }
+    .lbdis{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .lbdis li{
+        list-style: none;
+        display: inline-block;
+        width: 720px;
+        height: 30px;
+        background: rgba(206, 205, 205,0.5);
+    }
+    @keyframes lunbo{
+        0%, 10%{margin-left: 0;}
+        14%, 24%{margin-left: -720px;}
+        28%, 38%{margin-left: -1440px;}
+        42%, 52%{margin-left: -2160px;}
+        56%, 66%{margin-left: -2880px;}
+        70%, 80%{margin-left: -3600px;}
+        84%, 94%{margin-left: -4320px;} 
+    }
+    </style>
+</head>
+<body>
+       <div class="middle">
+           <div class="lbpic">
+               <img id="img1" src="l1.png">
+               <img id="img2" src="l2.jpg">
+               <img id="img3" src="l3.jpg">
+               <img id="img4" src="l4.jpg">
+               <img id="img5" src="l5.jpg">
+               <img id="img6" src="l6.jpg">
+               <img id="img7" src="l7.jpg">
+           <ul class="lbdis">
+               <li>【我的爱豆颜色 一起闪耀表真心】说出你的应援色故事，初选上线！</li>
+               <li>防弹少年团出演《SBS 8 NEWS》 讲述Billboard获奖幕后故事</li>
+               <li>NINE PERCENT九人合体综艺首秀 可帅可萌花式秀魅力</li>
+               <li>WANNA·ONE世巡记者会表示关于合约是否延长的问题尚未讨论</li>
+               <li>上影节李易峰《动物世界》将成开幕片！今夏一起遇见郑开司！</li>
+               <li>《蒙面歌王》“斗剑士”揭面为徐恩光 “很庆幸比上次进步了”</li>
+               <li>迪丽热巴米兰全记录公开 开启属于她的西西里童话故事</li>
+           </ul>
+           </div>
+           <span>
+               <a href="#" id="a1" class="dot"></a>
+               <a href="#" id="a2" class="dot"></a>
+               <a href="#" id="a3" class="dot"></a>
+               <a href="#" id="a4" class="dot"></a>
+               <a href="#" id="a5" class="dot"></a>
+               <a href="#" id="a6" class="dot"></a>
+               <a href="#" id="a7" class="dot"></a>
+           </span>
+</body>
+</html>

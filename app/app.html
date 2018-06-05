@@ -132,11 +132,11 @@
         .stars img{
             width: 160px;
             height: 160px;
-            border-radius: 100%;
+            border-radius: 50%;
         }
         .stars li{
             height: 200px;
-            margin: 20px 45px 20px 0;
+            margin: 20px 50px 20px 0;
             float: left;
         }
         .stars span{
@@ -144,7 +144,7 @@
             background-color: pink;
             width: 160px;
             height: 160px;
-            border-radius: 100%;
+            border-radius: 50%;
         }
         footer{
         background-color: #fff8fb;
@@ -178,7 +178,7 @@
         height:80px;
         vertical-align: middle;
         border: #ff488d 1px solid;
-        border-radius: 100%;
+        border-radius: 50%;
         color: #ff488d;
     }
     footer li a:hover{
@@ -197,6 +197,72 @@
         background-color: #ff448c;
         margin: 0;
         padding: 7px 0;
+    }
+    .interest span{
+        display: block;
+    }
+    .interest:after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .interest{
+        margin: 30px 0 0 0;
+        padding: 0;
+    }
+    .interest li{
+        float: left;
+        margin-right: -15px;
+    }
+    .line2{
+        width: 170px;
+        height: 50px;
+        background: url(line2.jpg) no-repeat -660px;
+        margin: 25px 0;
+    }
+    .bigger{
+        width: 170px;
+        height: 170px;
+        border:rgb(255, 255, 255) 5px solid;
+        border-radius: 50%;
+        margin: 15px 0;
+    }
+    .horline{
+        width: 180px;
+        height: 1px;
+        background-color: grey;
+    }
+    #horline-l{
+        width: 90px;
+        height: 1px;
+        background-color: grey;
+        margin-left: 88px;
+    }
+    #horline-r{
+        width: 89px;
+        height: 1px;
+        background-color: grey;
+    }
+    .verline{
+        margin-left: 85px;
+        background: url(icon.png) no-repeat -290px -153px;
+        width: 5px;
+        height: 45px;
+    }
+    .weibo{
+        color:pink;
+        font-size: 18px;
+        text-align: center;
+    }
+    .wbname{
+        color:black;
+        font-size: 20px;
+        text-align: center;
+    }
+    .interest li:hover .bigger{
+        transform: scale(1.1);
+        z-index: 2;
+        transition: 0.5s linear;
     }
     </style>
 </head>
@@ -239,7 +305,58 @@
    <section>
        <div class="middle m2">
            <h1 class="title">有趣的偶像动态<span class="icon"></span></h1>
-           <div style="height: 300px;"></div>
+           <div>
+               <ul class="interest">
+                   <li><a href="#">
+                       <p class="weibo">正在逛微博</p>
+                       <span class="line2"></span>
+                       <span id="horline-l"></span>
+                       <span class="verline"></span>
+                       <img class="bigger" src="2panyueming.jpg">
+                       <p class="wbname">潘粤明</p>                    
+                   </a></li>
+                   <li><a href="#">
+                       <p class="weibo">正在逛微博</p>
+                       <span class="line2"></span>
+                       <span class="horline"></span>
+                       <span class="verline"></span>
+                       <img class="bigger" src="2wyasx.jpg">
+                       <p class="wbname">WYASX</p>                    
+                   </a></li>
+                   <li><a href="#">
+                       <p class="weibo">正在逛微博</p>
+                       <span class="line2"></span>
+                       <span class="horline"></span>
+                       <span class="verline"></span>
+                       <img class="bigger" src="2zhangyijie.jpg">
+                       <p class="wbname">张逸杰</p>                    
+                   </a></li>
+                   <li><a href="#">
+                       <p class="weibo">正在逛微博</p>
+                       <span class="line2"></span>
+                       <span class="horline"></span>
+                       <span class="verline"></span>
+                       <img class="bigger" src="2zhangzhilin.jpg">
+                       <p class="wbname">张智霖</p>                    
+                   </a></li>
+                   <li><a href="#">
+                       <p class="weibo">正在逛微博</p>
+                       <span class="line2"></span>
+                       <span class="horline"></span>
+                       <span class="verline"></span>
+                       <img class="bigger" src="2lw.jpg">
+                       <p class="wbname">刘维</p>                    
+                   </a></li>
+                   <li><a href="#">
+                       <p class="weibo">正在逛微博</p>
+                       <span class="line2"></span>
+                       <span id="horline-r"></span>
+                       <span class="verline"></span>
+                       <img class="bigger" src="3bigbang.jpg">
+                       <p class="wbname">BIGBANG</p>                    
+                   </a></li>
+               </ul>
+           </div>
         </div>
    </section>
    <section>
