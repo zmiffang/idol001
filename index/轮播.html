@@ -7,17 +7,19 @@
         text-decoration: none;
     }
     .middle{
-        width:1000px;
-        margin:0 auto;
+        width:720px;
+        height: 330px;
+        overflow: hidden;
+        border-radius: 5px;
     }
     .lbpic{
-        width:720px;
+        width:calc(720px*5);
         height:330px;
         padding: 0;
         display: inline-block;
         position: relative;
-        overflow: hidden;
-        animation: lunbo 20s ease-out infinite;
+        /* overflow: hidden; */
+        animation: lunbo 7s ease-out infinite;
     }
     .lbpic img{
         width:720px;
@@ -37,13 +39,13 @@
         background: rgba(206, 205, 205,0.5);
     }
     @keyframes lunbo{
-        0%, 10%{margin-left: 0;}
-        14%, 24%{margin-left: -720px;}
-        28%, 38%{margin-left: -1440px;}
-        42%, 52%{margin-left: -2160px;}
-        56%, 66%{margin-left: -2880px;}
-        70%, 80%{margin-left: -3600px;}
-        84%, 94%{margin-left: -4320px;} 
+        0%, 14%{margin-left: 0;}
+        15%, 29%{margin-left: -720px;}
+        30%, 44%{margin-left: -1440px;}
+        45%, 59%{margin-left: -2160px;}
+        60%, 74%{margin-left: -2880px;}
+        75%, 89%{margin-left: -3600px;}
+        90%, 100%{margin-left: -4320px;} 
     }
     </style>
 </head>
@@ -76,5 +78,6 @@
                <a href="#" id="a6" class="dot"></a>
                <a href="#" id="a7" class="dot"></a>
            </span>
+           </div>
 </body>
 </html>
